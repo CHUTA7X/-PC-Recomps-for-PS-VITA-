@@ -13,9 +13,9 @@ Este proyecto lleva **juegos de PC a la PS Vita** recompilándolos para que func
 
 ### 🕹️ Juegos disponibles
 
-| Juego | Versión | Instrucciones |
+| Juego | Versión | Carpeta `<juego>` |
 |---|---|---|
-| 🏍️ *MX vs. ATV Unleashed* | v1.00 | [`MXvsATV-Unleashed.md`](MXvsATV-Unleashed.md) |
+| 🏍️ *MX vs. ATV Unleashed* | v1.00 | `mxvsatv` |
 
 ### 🧭 Cómo funciona (lo común a todos los juegos)
 Todas las recompilaciones siguen el mismo esquema, así que si ya instalaste una, las demás se instalan igual:
@@ -25,7 +25,7 @@ Todas las recompilaciones siguen el mismo esquema, así que si ya instalaste una
    ```
    ux0:data/<juego>/app/
    ```
-   (el nombre exacto de `<juego>` está en las instrucciones de cada uno).
+   (el nombre de `<juego>` está en la tabla de juegos disponibles).
 3. 📲 **Instala el `.vpk`** del juego con VitaShell.
 4. 🧩 Asegúrate de tener **`libshacccg.suprx`** en `ur0:data/` (el mismo que piden otros ports).
 
@@ -56,9 +56,9 @@ This project brings **PC games to the PS Vita** by recompiling them so they run 
 
 ### 🕹️ Available games
 
-| Game | Version | Instructions |
+| Game | Version | `<game>` folder |
 |---|---|---|
-| 🏍️ *MX vs. ATV Unleashed* | v1.00 | [`MXvsATV-Unleashed.md`](MXvsATV-Unleashed.md) |
+| 🏍️ *MX vs. ATV Unleashed* | v1.00 | `mxvsatv` |
 
 ### 🧭 How it works (common to every game)
 Every recomp follows the same layout, so once you have installed one, the rest install the same way:
@@ -68,7 +68,7 @@ Every recomp follows the same layout, so once you have installed one, the rest i
    ```
    ux0:data/<game>/app/
    ```
-   (the exact `<game>` name is given in each game's instructions).
+   (the `<game>` name is listed in the available games table).
 3. 📲 **Install the game's `.vpk`** with VitaShell.
 4. 🧩 Make sure **`libshacccg.suprx`** is in `ur0:data/` (the same one other ports ask for).
 
@@ -99,9 +99,9 @@ Este projeto leva **jogos de PC para o PS Vita** recompilando-os para rodarem na
 
 ### 🕹️ Jogos disponíveis
 
-| Jogo | Versão | Instruções |
+| Jogo | Versão | Pasta `<jogo>` |
 |---|---|---|
-| 🏍️ *MX vs. ATV Unleashed* | v1.00 | [`MXvsATV-Unleashed.md`](MXvsATV-Unleashed.md) |
+| 🏍️ *MX vs. ATV Unleashed* | v1.00 | `mxvsatv` |
 
 ### 🧭 Como funciona (comum a todos os jogos)
 Todas as recompilações seguem o mesmo esquema, então se você já instalou uma, as outras se instalam igual:
@@ -111,7 +111,7 @@ Todas as recompilações seguem o mesmo esquema, então se você já instalou um
    ```
    ux0:data/<jogo>/app/
    ```
-   (o nome exato de `<jogo>` está nas instruções de cada um).
+   (o nome de `<jogo>` está na tabela de jogos disponíveis).
 3. 📲 **Instale o `.vpk`** do jogo com o VitaShell.
 4. 🧩 Tenha o **`libshacccg.suprx`** em `ur0:data/` (o mesmo que outros ports pedem).
 
